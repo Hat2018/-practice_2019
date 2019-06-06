@@ -1,0 +1,39 @@
+.wrapper, .prev_two, .next_two{  
+  height: 130px;
+  width: 500px;
+  position: absolute;
+  margin-top: 40px;
+}
+
+.wrapper{
+  width: 90%;
+  left: 5%;
+  overflow: hidden;
+}
+
+.carousel img{
+  margin: 0px 1px;
+  border: none;
+  display: block;
+  float: left;
+}
+
+.prev_two, .next_two{
+  background: center center no-repeat #C0C0C0;
+  border:none;
+  width: 5%;        
+}
+
+.prev_two:hover, .next_two:hover{
+  opacity: .1;
+}
+
+.prev_two{
+  background-image: url(img/gui-prev.png);
+  left: 0;
+}
+
+.next_two{
+  background-image: url(img/gui-next.png);
+  right: 0;
+}
