@@ -6,9 +6,8 @@ body{
 body .slider_one{
   overflow:hidden; 
   position:relative;
-  width:1349px;
+  width:100%;
   height:500px;
-  margin:0 auto;
 }
   
 body .slider_one .slides{
@@ -145,14 +144,38 @@ body .slider_one .slides .slide_one img{
   color: #6495ED;
 }
 
-.menu .search_menu{
-  margin-left: 995px;
-  margin-top: -45px;
-}
-
 .menu{
   overflow: hidden;
   margin-left: 85px;
+}
+
+form.menu_search{
+  margin-left: 840px;
+  margin-top: -45px;
+  position: absolute;
+}
+
+form.menu_search input{
+  float: left;
+  border: none;
+  height: 27px;
+  width: 170px;
+  margin-top: 1px;
+  background: #fff;
+  margin-top: -1px; 
+  font-size: 10pt; 
+}  
+
+form.menu_search button{
+  margin-top: -1px;
+  height: 29px;
+  width: 40px;
+  background-color: #23323a;
+  border:none;
+}
+
+form.menu_search button:hover{
+  background-color: #008080;
 }
 
 .menu a{
@@ -203,7 +226,7 @@ div{
   width:auto;
   top: 50%;
   margin-left: 495px;
-  margin-top: 0px;   
+  margin-top: -10px;   
 }
 
 .slider_one .text{
@@ -219,8 +242,8 @@ div{
   width:100%; 
   height:235px;
   border: none; 
-  padding: 0px;
-  margin: 0px auto;
+  padding-top: -1px;
+  margin-top: -5px;
 }
 
 .backg_two .img{
@@ -250,20 +273,17 @@ div{
   font-size: 8pt;
 }
 
-body{
- line-height:11px;
-}
-
 .backg_three{
   background:#23323a;
   width:100%; 
-  height:375px;
+  height:325px;
   border: none; 
   padding: 0px;
   margin: 0px auto;
 }
 
 .backg_three p{
+  padding-top: 10px;
   text-align: center;
   color: #fff;
   line-height: 5px;
@@ -285,7 +305,7 @@ body{
 
 .img_red{
   position: absolute;
-  margin-left: 220px;
+  margin-left: 255px;
   margin-top: 200px;
   letter-spacing: 220px;
 }
@@ -336,7 +356,8 @@ p{
 .footer_one{
   width:100%; 
   height:350px;
-  background:  #19242a;
+  background: #19242a;
+  margin-top: -5px;
 }
 
 .footer_one .logo_two{
@@ -368,7 +389,7 @@ p{
 
 .footer_one .data{
   margin-left: 420px;
-  margin-top:  40px;
+  margin-top:  20px;
   color: #7ca1b3;
   font-size: 15px;
 }
@@ -377,7 +398,7 @@ p{
   font-style: italic; 
   color: #bdd2dc;
   margin-left: 420px;
-  margin-top:  5px;
+  margin-top:  15px;
   font-size: 15px;
 }
 
@@ -418,14 +439,14 @@ p{
 
 .footer_one .contacts{
   margin-left: 715px;
-  margin-top: -275px;
+  margin-top: -237px;
   font-size: 20px;
   color: #7ca1b3;   
 }
 
 .footer_one .location{
   margin-left: 715px;
-  margin-top: 5px;
+  margin-top: 15px;
 }
 
 .footer_one .contacts_text{
@@ -464,50 +485,22 @@ p{
 
 .footer_one .newsletter_signup{
   margin-left: 960px;
-  margin-top: -240px;
+  margin-top: -200px;
   font-size: 20px;
   color: #7ca1b3;  
 }
 
 .footer_one .newsletter_signup_text{
   margin-left: 960px;
-  margin-top: 1px;
+  margin-top: 10px;
   color: #7ca1b3;
   font-size: 15px;
-  line-height: 20px;
-}
-
-form.menu_search{
-  margin-left: 840px;
-  margin-top: -40px;
-  position: absolute;
-}
-
-form.menu_search input{
-  float: left;
-  border: none;
-  height: 27px;
-  width: 170px;
-  margin-top: 1px;
-  background: #fff;
-  margin-top: -1px; 
-  font-size: 10pt; 
-}  
-
-form.menu_search button{
-  margin-top: -1px;
-  height: 29px;
-  width: 40px;
-  background-color: #23323a;
-  border:none;
-}
-
-form.menu_search button:hover{
-  background-color: #008080;
+  line-height: 22px;
 }
 
 .footer_one form.search_container{
   margin-left: 960px;
+  margin-top: 15px;
   border: none;  
   width: 280px;
   height: 50px; 
@@ -552,6 +545,10 @@ form.search_container button{
   margin-left: 960px;
   margin-top: 5px;
   letter-spacing: 10px;
+}
+
+.twitter_slides{
+  margin-top: -5px;
 }
 
 .twitter_slides .twitter_icon{
@@ -696,6 +693,11 @@ form.search_container button{
   opacity:.2;
 }
 
+.our_team{
+  margin-top: -3px;
+  width: 100%;
+}
+
 .our_team .headline_our_team{
   font-size: 20pt;
   position: absolute;
@@ -722,17 +724,17 @@ form.search_container button{
 }
 
 .our_team_name_two{
-  margin-top: -25px;
+  margin-top: -17px;
   margin-left: 480px;
 }
 
 .our_team_name_three{  
-  margin-top: -25px;
+  margin-top: -17px;
   margin-left: 755px;
 }
 
 .our_team_name_four{  
-  margin-top: -25px;
+  margin-top: -17px;
   margin-left: 1030px;
 }
 
@@ -748,17 +750,17 @@ form.search_container button{
 }
 
 .team_ceo_two{
-  margin-top: -20px;
+  margin-top: -10px;
   margin-left: 510px; 
 }
 
 .team_ceo_three{
-  margin-top: -20px;
+  margin-top: -10px;
   margin-left: 785px;
 }
 
 .team_ceo_four{
-  margin-top: -20px;
+  margin-top: -10px;
   margin-left: 1060px;
 }
 
@@ -783,12 +785,12 @@ form.search_container button{
 }
 
 .team_text_three{
-  margin-top: -70px;
+  margin-top: -60px;
   margin-left: 430px;   
 }
 
 .team_text_four{
-  margin-top: -70px;  
+  margin-top: -60px;  
   margin-left: 980px;   
 }
 
@@ -843,6 +845,10 @@ form.search_container button{
   position: absolute;
   margin-left: 975px;
   margin-top:  -120px;
+}
+
+.backg_five{
+  width: 100%;
 }
 
 .backg_five_img_one{
@@ -900,7 +906,7 @@ form.search_container button{
   line-height: 20px;
 }
 
-.backg_five .flexible_sol_line{
+.flexible_sol_line{
   position: absolute;
   margin-left: 780px;
   margin-top: -330px;
@@ -949,9 +955,9 @@ form.search_container button{
 }
 
 .backg_four{
-  background:#fcfcfc;
+  background: #fcfcfc;
   width:100%; 
-  height:600px;
+  height:550px;
   border: none; 
   padding: 0px;
   margin: 0px auto;
@@ -974,7 +980,7 @@ form.search_container button{
   width: 180px;
   height: 50px;
   margin-left: 1000px;
-  margin-top: -60px;
+  margin-top: -40px;
   color: white; 
   font-size: 10pt; 
   border:none;
@@ -984,7 +990,7 @@ form.search_container button{
   position: absolute;
   border:none;
   margin-left: 1015px;
-  margin-top: -43px;
+  margin-top: -23px;
   height: 16px;
   width: 16px;  
 }
@@ -993,33 +999,40 @@ form.search_container button{
   background-color:  #008080;
 }
 
+.backg_four_line{
+  margin-left: 0px;
+  margin-top: 40px;
+  color: #e5e8ea;
+  opacity: .3;
+}
 .backg_four .backg_four_headline{  
-  margin-top: 100px;
+  margin-top: 30px;
   font-size: 15pt;
   margin-left: 80px;
 }
 
 .backg_four .backg_four_data{
-  margin-top: 30px;
+  margin-top: 35px;
   font-size: 30pt;
   margin-left: 80px;
   color: #008fd5;
 }
 
 .backg_four_data_month_year{
-  margin-top: -15px;
+  margin-top: 10px;
   font-size: 8pt;
   margin-left: 80px;
 }
 
 .backg_four_photo{
+  margin-top: 10px;
   margin-left: 90px;
   position: absolute;
 }
 
 .backg_four_img{
-  margin-top: -73px;
-  margin-left: 135px;
+  margin-top: -70px;
+  margin-left: 140px;
 }
 
 .backg_four_menu .active{
@@ -1029,7 +1042,7 @@ form.search_container button{
 ul.backg_four_menu{
   position: absolute;
   margin-top: -130px;
-  margin-left: 230px;
+  margin-left: 275px;
 }
 
 .backg_four_menu li{
@@ -1064,36 +1077,40 @@ ul li:after{
 .backg_four_text{
   margin-left: 275px;
   line-height: 17px;
-  margin-top: -5px;
+  margin-top: 10px;
   color: #73848e;
 }
 
 .backg_four_headline_two{
-  margin-top: -370px;
+  margin-top: -325px;
   font-size: 15pt;
   margin-left: 660px;
 }
 
 table.table_one{  
   margin-left: 660px;
+  margin-top: 20px;
   height: 50px;
   width: 250px;
-  text-align: right;
+  text-align: center;
 }
 
 .table_one th, tr{
   border: 1px solid #ebeef0;
   font-size: 14px;
   color: #33a5dd; 
+  padding: 10px;
 }
 
 .backg_four_text_two{
   color: #73848e;
+  margin-top: 10px;
   margin-left: 660px;
   line-height: 17px;
 }
 
 .table_two{
+  margin-top: 10px;
   margin-left: 660px;
   height: 90px;
   width: 250px;
@@ -1102,24 +1119,26 @@ table.table_one{
 .table_two th, tr{
   border: 1px solid #ebeef0;
   color: #000;
+  padding: 10px;
 }
 
 .people_say_headline{
-  margin-top: -320px;
+  margin-top: -315px;
   font-size: 15pt;
   margin-left: 980px; 
 }
 
 .people_say_img{
+  margin-top: 15px;
   margin-left: 980px;
   width: 230px;
 }
 
 .people_say_img_two{
-   margin-left: -230px;
-   width: 70px;
-   margin-top: 0px;
-   position: absolute;
+  margin-left: -230px;
+  width: 70px;
+  margin-top: 15px;
+  position: absolute;
 }
 
 .people_say_name{
@@ -1131,7 +1150,7 @@ table.table_one{
 
 .people_say_colortext_company{
   margin-left: 1060px;
-  margin-top: -5px;
+  margin-top: 5px;
   color: #33a5dd;
   font-size: 8px;
 }
@@ -1145,9 +1164,9 @@ table.table_one{
 
 .people_say_text{
   margin-left: 1025px;
-  margin-top: 20px;
+  margin-top: 40px;
   font-size: 15px;
-  line-height: 17px;
+  line-height: 20px;
 }
 
 .people_say_colortext{
@@ -1155,6 +1174,7 @@ table.table_one{
 }
 
 .people_say_text_one{
+  margin-top: 15px;
   color: #73848e;
 }
 
